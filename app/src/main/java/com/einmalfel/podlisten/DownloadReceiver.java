@@ -51,6 +51,7 @@ public class DownloadReceiver extends BroadcastReceiver {
     if (charging == null) {
       charging = isDeviceCharging();
     }
+  }
 
   @NonNull
   public static Intent getHeartBeatIntent(@NonNull Context context) {
