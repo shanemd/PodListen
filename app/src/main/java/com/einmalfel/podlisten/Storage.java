@@ -255,10 +255,15 @@ public class Storage {
   }
 
   public boolean isRemovable() {
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-      return Environment.isExternalStorageRemovable(appFilesDir);
-    } else {
-      return isPrimaryStorage() ? Environment.isExternalStorageRemovable() : true;
+    try {
+      if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+        return Environment.isExternalStorageRemovable(appFilesDir);
+      } else {
+        return isPrimaryStorage() ? Environment.isExternalStorageRemovable() : true;
+      }
+    } catch (IllegalArgumentException exc) {
+        Log.e(TAG, "Failed to check isRemovable of " + appFilesDir + ":" + Log.getStackTraceString(exc));
+        return false;
     }
   }
 
