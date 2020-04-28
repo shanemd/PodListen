@@ -90,6 +90,8 @@
     <string name="preferences_pause_on_disconnect_title">Пауза при откл. наушников</string>
     <string name="preferences_playback_title">Воспроизведение</string>
     <string name="preferences_refresh_interval_title">Периодичность обновления подписок</string>
+    <string name="preferences_show_notification_on_new_episode_only_title">Уменьшить уведомления</string>
+    <string name="preferences_show_notification_on_new_episode_only_summary">Показывать уведомление только при обнаружении нового эпизода</string>
     <string name="preferences_send_bug_report_summary">Журнал приложения и информация от устройстве будут добавлены автоматически</string>
     <string name="preferences_send_bug_report_summary_disabled">Отключено: почтовый клиент не установлен</string>
     <string name="preferences_send_bug_report_title">Написать разработчику</string>

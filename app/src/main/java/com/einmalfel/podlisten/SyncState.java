@@ -60,9 +60,16 @@ public class SyncState {
   }
 
   synchronized void stop() {
-    // don't keep "refreshed" notification user if main activity is on screen
+    // don't keep "refreshed" user notification if main activity is on screen
     String currentActivity = Preferences.getInstance().getCurrentActivity(true);
     if (MainActivity.class.getSimpleName().equals(currentActivity) && errors == 0) {
+      stopped = true;
+      nm.cancel(NOTIFICATION_ID);
+      return;
+    }
+
+    // don't bother user (if he does not want to) with notification if nothing happened (no new episode, no error)
+    if(Preferences.getInstance().showNotificationOnNewEpisodeOnly() && newEpisodes == 0 && errors == 0) {
       stopped = true;
       nm.cancel(NOTIFICATION_ID);
       return;

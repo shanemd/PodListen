@@ -124,6 +124,8 @@ If you encounter a bug or come up with a feature request, please open an issue o
     <string name="preferences_opml_export_summary_disabled">Disabled: you have no subscriptions to export</string>
     <string name="preferences_opml_export_failed">OPML export failed, sorry..</string>
     <string name="preferences_refresh_interval_title">Auto-refresh subscriptions</string>
+    <string name="preferences_show_notification_on_new_episode_only_title">Reduce notifications</string>
+    <string name="preferences_show_notification_on_new_episode_only_summary">Show notification only if new episode is found</string>
     <string name="preferences_jump_interval_title">Jump buttons interval</string>
     <string name="preferences_on_playback_completed_title">On playback complete</string>
     <string name="preferences_pause_on_disconnect_title">Pause on headphones disconnect</string>

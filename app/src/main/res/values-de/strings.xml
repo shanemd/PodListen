@@ -35,8 +35,8 @@ If you encounter a bug or come up with a feature request, please open an issue o
     <string name="tab_new_episodes">Neue Episoden</string>
     <string name="tab_subscriptions">Abonnierte Podcasts</string>
 
-    <string name="podcast_already_subscribed">%s ist schon Abonniert</string>
-    <string name="podcast_subscribe_failed">Abonnieren Fehlgeschlagen</string>
+    <string name="podcast_already_subscribed">%s ist schon abonniert</string>
+    <string name="podcast_subscribe_failed">Abonnieren fehlgeschlagen</string>
     <string name="podcast_delete_question">%s entfernen?</string>
     <string name="podcast_delete_question_no_title">Diesen Podcast entfernen?</string>
     <string name="podcast_no_title">Keinen Titel</string>
@@ -81,47 +81,49 @@ If you encounter a bug or come up with a feature request, please open an issue o
     <string name="subscribe_dialog_edit_text_hint">Podcast URL hier einfügen</string>
     <string name="subscribe_dialog_on_first_load_text">Anzahl hinzuzufügender Episoden:</string>
     <string name="subscribe_dialog_subscribe_button">ABONNIEREN</string>
-    <string name="subscribe_dialog_opml_failed">Das Abonnieren aller Feeds dieses OPML\'s ist Fehlgeschlagen</string>
+    <string name="subscribe_dialog_opml_failed">Das Abonnieren aller Feeds dieses OPML\'s ist fehlgeschlagen</string>
     <string name="subscribe_dialog_opml_subscriptions_added">"Abonnements hinzugefügt: %1$d/%2$d"</string>
     <string name="subscribe_dialog_opml_empty">Dieses OPML enthält keine Feeds</string>
     <string name="subscribe_dialog_title">Abonnements hinzufügen</string>
     <string name="subscribe_dialog_select_opml_prompt">OPML-Datei auswählen</string>
-    <string name="subscribe_dialog_import_opml">OPML Importieren</string>
+    <string name="subscribe_dialog_import_opml">OPML importieren</string>
     <string name="subscribe_dialog_search_db">Datenbank durchsuchen</string>
 
     <string name="preferences_title">Einstellungen</string>
     <string name="preferences_network_title">Netzwerk</string>
     <string name="preferences_playback_title">Wiedergabe</string>
     <string name="preferences_other_title">Sonstiges</string>
-    <string name="preferences_experimental_title">Experimental</string>
+    <string name="preferences_experimental_title">Experimentell</string>
     <string name="preferences_send_bug_report_title">Bug-Report senden</string>
     <string name="preferences_send_bug_report_summary">Dem Entwickler eine E-Mail senden. Log-Datei der App und Informationen über ihr Gerät werden mitgesendet</string>
     <string name="preferences_send_bug_report_summary_disabled">Nicht Verfügbar: Sie haben keine E-Mail App installiert.</string>
-    <string name="preferences_max_downloads_title">Maximum Paralleler Downloads</string>
+    <string name="preferences_max_downloads_title">Maximum paralleler Downloads</string>
     <string name="preferences_max_downloads_unlimited">Unbegrenzt</string>
-    <string name="preferences_storage_location_title">Episoden Zwischenspeicher (wird bei Änderung gelöscht)</string>
+    <string name="preferences_storage_location_title">Episoden-Zwischenspeicher (wird bei Änderung gelöscht)</string>
     <string name="preferences_auto_download_title">Automatischer Episoden-Download</string>
-    <string name="preferences_auto_download_ac_title">Nur beim Laden Downloaden</string>
-    <string name="preferences_auto_download_ac_summary">Automatische Downloads nur starten wenn das Telefon gerade geladen wird.</string>
+    <string name="preferences_auto_download_ac_title">Nur beim Laden downloaden</string>
+    <string name="preferences_auto_download_ac_summary">Automatische Downloads nur starten, wenn das Telefon gerade geladen wird.</string>
     <string name="preferences_download_network_title">Netzwerke für den Download</string>
-    <string name="preferences_opml_export_title">Als OPML Exportieren</string>
+    <string name="preferences_opml_export_title">Als OPML exportieren</string>
     <string name="preferences_opml_export_summary">Exportiere deine Abonnement-Liste in eine OPML Datei (kann von den meisten Podcast-Apps gelesen werden)</string>
-    <string name="preferences_opml_export_summary_disabled">Nicht verfügbar: Du hast keine Abonnemente</string>
+    <string name="preferences_opml_export_summary_disabled">Nicht verfügbar: Du hast keine Abonnements</string>
     <string name="preferences_opml_export_failed">Der OPML-Export ist fehlgeschlagen, entschuldigung..</string>
-    <string name="preferences_refresh_interval_title">Abonnemente automatisch Aktualisieren</string>
-    <string name="preferences_jump_interval_title">Intervall der "Vor\/Zurück Spuhlen" Knöpfe</string>
+    <string name="preferences_refresh_interval_title">Abonnements automatisch aktualisieren</string>
+    <string name="preferences_show_notification_on_new_episode_only_title">Benachrichtigungen reduzieren</string>
+    <string name="preferences_show_notification_on_new_episode_only_summary">Benachrichtigung nur anzeigen, wenn eine neue Episode gefunden wurde</string>
+    <string name="preferences_jump_interval_title">Intervall der Vor-/Zurück-Spulen-Knöpfe</string>
     <string name="preferences_on_playback_completed_title">Wenn die Wiedergabe beendet wurde</string>
     <string name="preferences_pause_on_disconnect_title">Pausieren beim Kopfhörer ausstecken</string>
-    <string name="preferences_pause_on_disconnect_summary">Unterbricht die Wiedergabe wenn du deine Ohr/Kopfhörer abziehst oder die Verbindung zum Bluetooth-Headset verloren geht.</string>
-    <string name="preferences_fix_skip_ending_title">Workaround ending skip</string>
-    <string name="preferences_fix_skip_ending_summary">Android system media player skips track endings on some devices. This option fixes the issue</string>
+    <string name="preferences_pause_on_disconnect_summary">Unterbricht die Wiedergabe, wenn du deine Ohr/Kopfhörer abziehst oder die Verbindung zum Bluetooth-Headset verloren geht.</string>
+    <string name="preferences_fix_skip_ending_title">Fehlerbehebung für abgeschnittene Wiedergaben</string>
+    <string name="preferences_fix_skip_ending_summary">Android \"Media Player\" schneidet die Wiedergabe auf manchen Geräten ab. Diese Option behebt den Fehler.</string>
 
     <string name="opml_dialog_done">Fertig</string>
-    <string name="opml_dialog_message">Deine Abonnemente wurden exportiert nach %s</string>
+    <string name="opml_dialog_message">Deine Abonnements wurden exportiert nach %s</string>
     <string name="opml_dialog_send">Senden</string>
     <string name="opml_dialog_FMapp">Im Dateimanager anzeigen</string>
     <string name="opml_dialog_title">Erfolgreich exportiert</string>
-    <string name="opml_export_file_name">PodListen_Abonnemente.opml</string>
+    <string name="opml_export_file_name">PodListen_Abonnements.opml</string>
 
     <string name="refresh_period_never">Nie</string>
     <string name="refresh_period_hour">Stündlich</string>
@@ -135,11 +137,11 @@ If you encounter a bug or come up with a feature request, please open an issue o
     <string name="refresh_period_2weeks">Alle 2 Wochen</string>
     <string name="refresh_period_month">Monatlich</string>
 
-    <string name="sorting_mode_oldest_first">Sortiert nach Datum (alte zuerst)</string>
-    <string name="sorting_mode_newest_first">Sortiert nach Datum (neue zuerst)</string>
-    <string name="sorting_mode_by_feed">Sortiert nach feed</string>
-    <string name="sorting_mode_shortest_first">Sortiert nach länge (kurze zuerst)</string>
-    <string name="sorting_mode_longest_first">Sortiert nach länge (lange zuerst)</string>
+    <string name="sorting_mode_oldest_first">Sortiert nach Datum (Alte zuerst)</string>
+    <string name="sorting_mode_newest_first">Sortiert nach Datum (Neue zuerst)</string>
+    <string name="sorting_mode_by_feed">Sortiert nach Feed</string>
+    <string name="sorting_mode_shortest_first">Sortiert nach Länge (Kurze zuerst)</string>
+    <string name="sorting_mode_longest_first">Sortiert nach Länge (Lange zuerst)</string>
 
     <string name="auto_download_playlist">Zur Playlist hinzugefügte Episoden</string>
     <string name="auto_download_all_new">Alle neuen Episoden</string>
@@ -163,7 +165,7 @@ If you encounter a bug or come up with a feature request, please open an issue o
     <string name="jump_interval_5min">5 Minuten</string>
 
     <string name="crash_dialog_title">PodListen ist abgestürzt</string>
-    <string name="crash_dialog_text">Ein unerwarter Fehler zwang PodListen anzuhalten. Bitte hilf uns dieses Problem zu lösen indem du uns anonymisierte Informationen über dein Gerät sendest. Du kannst die Nachricht vor dem Senden bearbeiten wenn du willst.</string>
+    <string name="crash_dialog_text">Ein unerwarter Fehler zwang PodListen anzuhalten. Bitte hilf uns dieses Problem zu lösen indem du uns anonymisierte Informationen über dein Gerät sendest. Wenn du möchtest, kannst die Nachricht vor dem Senden bearbeiten.</string>
     <string name="crash_dialog_ok_toast">Vielen Dank!</string>
 
     <string name="player_stopped">Drücke Play um die Wiedergabe zu starten</string>
@@ -177,14 +179,14 @@ If you encounter a bug or come up with a feature request, please open an issue o
     <string name="player_play_button_description">Play or pause</string>
     <string name="player_next_button_description">@string/playback_complete_play_next</string>
 
-    <string name="sync_database_error">DB Error</string>
-    <string name="sync_interrupted_by_system">Aktualisierung unterbrochen vom System</string>
+    <string name="sync_database_error">Datenbank-Fehler</string>
+    <string name="sync_interrupted_by_system">Aktualisierung vom System unterbrochen</string>
     <string name="sync_failed">Aktualisierung fehlgeschlagen</string>
     <string name="sync_running">Aktualisiere PodListen..</string>
     <string name="sync_new_episodes">Neue Episoden: %s</string>
     <string name="sync_feeds_synced">Feeds geladen: %d</string>
     <string name="sync_feeds_failed">Laden fehlgeschlagen: %d</string>
-    <string name="sync_finished">Podlisten Aktualisiert</string>
+    <string name="sync_finished">Podlisten aktualisiert</string>
     <string name="sync_feed_parsing_failed">Parsing fehlgeschlagen: %s</string>
     <string name="sync_feed_db_error">DB Error: %s</string>
     <string name="sync_feed_io_error">IO Error: %s</string>

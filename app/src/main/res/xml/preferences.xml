@@ -25,6 +25,11 @@
             android:key="REFRESH_INTERVAL"
             android:summary="%s"
             android:title="@string/preferences_refresh_interval_title"/>
+        <CheckBoxPreference
+            android:key="NOTIFICATION_ON_NEW_EPISODE_ONLY"
+            android:summary="@string/preferences_show_notification_on_new_episode_only_summary"
+            android:title="@string/preferences_show_notification_on_new_episode_only_title"/>
+
     </PreferenceCategory>
     <PreferenceCategory
         android:title="@string/preferences_playback_title">
