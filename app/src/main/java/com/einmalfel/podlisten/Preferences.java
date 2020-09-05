@@ -20,6 +20,7 @@ public class Preferences implements SharedPreferences.OnSharedPreferenceChangeLi
     STORAGE_PATH,
     MAX_DOWNLOADS,
     REFRESH_INTERVAL,
+    NOTIFICATION_ON_NEW_EPISODE_ONLY,
     SORTING_MODE,
     PLAYER_FOREGROUND,
     AUTO_DOWNLOAD,
@@ -236,6 +237,7 @@ public class Preferences implements SharedPreferences.OnSharedPreferenceChangeLi
   private MaxDownloadsOption maxDownloads;
   private Storage storage;
   private RefreshIntervalOption refreshInterval;
+  private boolean showNotificationOnNewEpisodeOnly;
   private SortingMode sortingMode;
   private AutoDownloadMode autoDownloadMode;
   private DownloadNetwork downloadNetwork;
@@ -388,6 +390,9 @@ public class Preferences implements SharedPreferences.OnSharedPreferenceChangeLi
           PodlistenAccount.getInstance(context).setupSync(refreshInterval.periodSeconds);
         }
         break;
+      case NOTIFICATION_ON_NEW_EPISODE_ONLY:
+        showNotificationOnNewEpisodeOnly = sharedPrefs.getBoolean(Key.NOTIFICATION_ON_NEW_EPISODE_ONLY.toString(), false);
+        break;
       case STORAGE_PATH:
         String storagePreferenceString = sharedPrefs.getString(Key.STORAGE_PATH.toString(), "");
         if (storagePreferenceString.isEmpty()) {
@@ -433,6 +438,8 @@ public class Preferences implements SharedPreferences.OnSharedPreferenceChangeLi
   public RefreshIntervalOption getRefreshInterval() {
     return refreshInterval;
   }
+
+  public boolean showNotificationOnNewEpisodeOnly() { return showNotificationOnNewEpisodeOnly; }
 
   @NonNull
   public MaxDownloadsOption getMaxDownloads() {
