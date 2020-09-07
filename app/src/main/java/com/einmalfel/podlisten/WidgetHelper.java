@@ -77,7 +77,7 @@ public class WidgetHelper implements PlayerService.PlayerStateListener {
     rvFull.setOnClickPendingIntent(R.id.play_button, getIntent(context, WidgetAction.PLAY_PAUSE));
     rvFull.setOnClickPendingIntent(R.id.play_options, getIntent(context, WidgetAction.STOP));
     rvFull.setImageViewResource(R.id.play_options, R.mipmap.ic_close_white_36dp);
-    builder.setSmallIcon(R.drawable.logo).setPriority(NotificationCompat.PRIORITY_LOW)
+    builder.setSmallIcon(R.drawable.logo).setPriority(NotificationCompat.PRIORITY_MAX)
            .setOngoing(true).setCategory(NotificationCompat.CATEGORY_SERVICE);
     connection.bind();
   }

@@ -390,6 +390,7 @@ public class Preferences implements SharedPreferences.OnSharedPreferenceChangeLi
         break;
       case STORAGE_PATH:
         String storagePreferenceString = sharedPrefs.getString(Key.STORAGE_PATH.toString(), "");
+        Log.i(TAG, "storagePreferenceString: " + storagePreferenceString);
         if (storagePreferenceString.isEmpty()) {
           // by default, if there are removable storages use first removable, otherwise use last one
           Set<Storage> storages = Storage.getWritableStorages();
