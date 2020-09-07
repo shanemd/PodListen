@@ -1,4 +1,4 @@
-This is a fork of einmalfel's fantastic minimalistic podcast manager. The original can be found at [einmalfel/PodListen](https://github.com/einmalfel/PodListen).
+This is a fork of [einmalfel](https://github.com/einmalfel/)'s fantastic minimalistic podcast manager. The original can be found at [einmalfel/PodListen](https://github.com/einmalfel/PodListen).
 
 ### App idea
 
