@@ -1,8 +1,4 @@
-[![PodListen on Google Play](http://www.android.com/images/brand/android_app_on_play_large.png "Get PodListen from Google Play")](https://play.google.com/store/apps/details?id=com.einmalfel.podlisten)   If you feel brave, consider [joining beta-testing program](https://play.google.com/apps/testing/com.einmalfel.podlisten).
-
-[![PodListen on fdroid.org](https://camo.githubusercontent.com/7df0eafa4433fa4919a56f87c3d99cf81b68d01c/68747470733a2f2f662d64726f69642e6f72672f77696b692f696d616765732f632f63342f462d44726f69642d627574746f6e5f617661696c61626c652d6f6e2e706e67 "Get PodListen from fdroid.org")](http://f-droid.org/repository/browse/?fdcategory=Multimedia&fdid=com.einmalfel.podlisten)   N.B.: F-Droid processes updates with 1-2 day delay.
-
-Also, PodListen is available on Yandex Store
+This is a fork of einmalfel's fantastic minimalistic podcast manager. The original can be found at [einmalfel/PodListen](https://github.com/einmalfel/PodListen).
 
 ### App idea
 
@@ -16,7 +12,7 @@ Android podcast app with simplified navigation and lightweight interface. It's i
 
 PodListen is ready for translation. If you are willing to contribute by translating the app to your language just make a pull-request with new or updated res/values-XX/strings.xml file.
 
-Alternatively, you can simply [download latest strings.xml](https://raw.githubusercontent.com/einmalfel/PodListen/master/app/src/main/res/values/strings.xml), translate it and email it to me.
+Alternatively, you can simply [download latest strings.xml](https://raw.githubusercontent.com/shanemd/PodListen/master/app/src/main/res/values/strings.xml), translate it, and email it to me.
 
 Currently, PodListen has Croatian, English, German, Russian and incomplete French localizations.
 
